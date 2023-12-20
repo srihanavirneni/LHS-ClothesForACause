@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import NavLinks from './NavLinks';
 import SideDrawer from './SideDrawer';
 import Backdrop from '../../interface/Backdrop';
+import ContactStrip from './ContactStrip';
 
 import menu from '../../../assets/icons/menu.png';
 import logo from '../../../assets/icons/logo.png';
@@ -29,13 +30,16 @@ const MainNavigation = (props) => {
                 </nav>
             </SideDrawer>
 
+            <ContactStrip />
             <header className="main-header">
-                <div className='brand'>
+                <div className="brand">
                     <img className="logo" src={logo} alt="Logo" />
                     <h2>
                         <Link to="/">
                             <ul>
-                                <li className='brand__sub-title'>Lambert High School</li>
+                                <li className="brand__sub-title">
+                                    Lambert High School
+                                </li>
                                 <li>Clothes For A Cause</li>
                             </ul>
                         </Link>

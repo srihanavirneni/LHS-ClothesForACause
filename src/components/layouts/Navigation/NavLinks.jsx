@@ -7,22 +7,33 @@ import './NavLinks.css';
 const NavLinks = (props) => {
     return (
         <ul className="nav-links">
-            <li>
-                <NavLink to="/" exact>
-                    Home
-                </NavLink>
-            </li>
-            <li>
-                <NavLink to="/sponsors">Sponsors</NavLink>
-            </li>
-            <li>
-                <NavLink to="/participate">Get Involved</NavLink>
-            </li>
-            <div className="nav-links__cta">
-                <Button to="/contact">
-                    Contact Us
-                </Button>
-            </div>
+            <ul className="nav-links__centered">
+                <li>
+                    <NavLink to="/" exact>
+                        Home
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/about" exact>
+                        About Us
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/sponsors">Sponsors</NavLink>
+                </li>
+            </ul>
+            <ul className="nav-links__right">
+                <div className="nav-links__cta">
+                    <Button to="/contact" bold>
+                        Contact Us
+                    </Button>
+                </div>
+                <div className="nav-links__cta">
+                    <Button to="/participate" bold>
+                        Get Involved
+                    </Button>
+                </div>
+            </ul>
         </ul>
     );
 };

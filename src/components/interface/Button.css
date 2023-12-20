@@ -107,6 +107,7 @@
 }
 
 .button--bold > p {
+    font-family: 'Gotham-Medium';
     font-weight: 600;
 }
 

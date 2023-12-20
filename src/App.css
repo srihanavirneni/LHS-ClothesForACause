@@ -1,3 +1,7 @@
 .app-content {
-    margin-top: calc(var(--navigation-height) + 3rem);
+    margin-top: calc(
+        var(--navigation-height) + var(--contact-strip-height) + 4rem
+    );
+    position: absolute;
+    z-index: 0;
 }
