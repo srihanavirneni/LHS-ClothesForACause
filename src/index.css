@@ -1,0 +1,74 @@
+/* IMPORTING FONTS */
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: local('Gotham-Medium'),
+        url('./assets/fonts/Gotham/Gotham-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: local('Gotham-Bold'),
+        url('./assets/fonts/Gotham/Gotham-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: local('Gotham-Book'),
+        url('./assets/fonts/Gotham/Gotham-Book.otf') format('truetype');
+}
+
+:root {
+    box-sizing: border-box;
+
+    --color-dominant: #5da6ea;
+    --color-dominant_shaded: #2b84d6;
+    --color-complementary: #1f2833;
+    --color-main: #1a1a1a;
+    --color-secondary: #dfdfdf;
+    --color-accent: #222222;
+
+    --navigation-height: 45px;
+}
+
+* {
+    font-family: 'Gotham-Book', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+hr {
+    color: white;
+}
+
+body {
+    background-color: var(--color-main);
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-in-left-enter {
+    transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 200ms;
+}
+
+.slide-in-left-exit {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.slide-in-left-exit-active {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 200ms;
+}

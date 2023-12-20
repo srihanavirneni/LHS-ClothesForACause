@@ -1,0 +1,122 @@
+.button {
+    padding: 0.6rem 1.75rem;
+    border: 1px solid var(--color-dominant);
+    border-radius: 4px;
+    background: var(--color-dominant);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.button p {
+    color: white;
+    width: 100%;
+}
+
+.button img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.lose-margin {
+    margin-right: 0rem;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover,
+.button:active {
+    background-color: var(--color-dominant_shaded);
+    border: 1px solid var(--color-dominant_shaded);
+}
+
+.button--secondary {
+    background: var(--color-main);
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.button--secondary p {
+    color: black;
+}
+
+.button--secondary:hover,
+.button--secondary:active {
+    background: var(--color-secondary);
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.button--inverse {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.button--inverse p {
+    color: white;
+}
+
+.button--inverse:hover,
+.button--inverse:active {
+    color: white;
+    background: var(--color-dominant);
+    border-width: 1px;
+}
+
+.button--inverse:hover > p,
+.button--inverse:active > p {
+    color: white;
+}
+
+.button--danger {
+    background: #bd0202;
+    border-color: #bd0202;
+}
+
+.button--danger:hover,
+.button--danger:active {
+    background: #f34343;
+    border-color: #f34343;
+}
+
+.button:disabled,
+.button:hover:disabled,
+.button:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+.button:disabled > p,
+.button:hover:disabled > p,
+.button:active:disabled > p {
+    color: #979797;
+}
+
+.button--small {
+    padding: 0.5rem 1.1rem;
+}
+
+.button--big > p {
+    font-size: 1.5rem;
+}
+
+.button--bold > p {
+    font-weight: 600;
+}
+
+.button--icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button--icon p {
+    margin-left: 0.5rem;
+}
