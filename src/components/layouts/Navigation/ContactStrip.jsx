@@ -17,7 +17,7 @@ const ContactStrip = (props) => {
                 </li>
             </ul>
             <ul className="contact-strip__media">
-                <li>
+                {/* <li>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -25,7 +25,7 @@ const ContactStrip = (props) => {
                     >
                         <img src={groupme} alt="Group Me" />
                     </a>
-                </li>
+                </li> */}
                 {/* <li>
                     <a
                         target="_blank"
