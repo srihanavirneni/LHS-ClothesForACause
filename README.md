@@ -1,8 +1,10 @@
-# React + Vite
+# Clothes For A Cause
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project / repository is the official Lambert High School's Clothes For A Cause Club Page.
+This website is made by the frameworks - **React and Vite**.
 
-Currently, two official plugins are available:
+If you are viewing this, you might be the one who is hosting the project, so if this is you then look below:
+- just download everything above and save it to a folder
+- grab your purchased URL and publish contents there
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+(subject to change)
