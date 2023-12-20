@@ -26,7 +26,7 @@ const ContactStrip = (props) => {
                         <img src={groupme} alt="Group Me" />
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -34,7 +34,7 @@ const ContactStrip = (props) => {
                     >
                         <img src={instagram} alt="Group Me" />
                     </a>
-                </li>
+                </li> */}
                 <li>
                     <a href="mailto:lambert.clothesforacause@gmail.com">
                         <img src={email} alt="Email" />
