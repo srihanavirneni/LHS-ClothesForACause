@@ -9,6 +9,7 @@ import {
 import MainNavigation from './components/layouts/Navigation/MainNavigation';
 
 import Home from './pages/Home';
+import About from './pages/About';
 import Sponsors from './pages/Sponsors';
 
 import './App.css';
@@ -21,6 +22,9 @@ const App = () => {
                 <Switch>
                     <Route path="/" exact>
                         <Home />
+                    </Route>
+                    <Route path="/about" exact>
+                        <About />
                     </Route>
                     <Route path="/sponsors" exact>
                         <Sponsors />
