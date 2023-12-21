@@ -8,7 +8,7 @@ import {
 
 import MainNavigation from './components/layouts/Navigation/MainNavigation';
 
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import About from './pages/About';
 import Sponsors from './pages/Sponsors';
 

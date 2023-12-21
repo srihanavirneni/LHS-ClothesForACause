@@ -2,6 +2,4 @@
     margin-top: calc(
         var(--navigation-height) + var(--contact-strip-height) + 4rem
     );
-    position: absolute;
-    z-index: 0;
 }
