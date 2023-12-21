@@ -21,7 +21,9 @@ const Hero = () => {
                     <Button to="/participate" bold>
                         Get Involved
                     </Button>
-                    <Button to="/contact">Contact Us</Button>
+                    <Button to="/contact" bold>
+                        Contact Us
+                    </Button>
                 </ul>
             </div>
         </section>
