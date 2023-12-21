@@ -1,0 +1,36 @@
+.credibility-section {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+}
+
+.credibility-section__points-list {
+    margin-top: 7rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.credibility-section__points-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+}
+
+.credibility-section__points-list img {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 5rem;
+}
+
+.credibility-section__points-list h2 {
+    font-family: 'Gotham-Bold';
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 1.25rem;
+}

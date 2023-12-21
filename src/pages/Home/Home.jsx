@@ -2,6 +2,7 @@ import React from 'react';
 
 import Hero from './containers/Hero';
 import Brands from './containers/Brands';
+import Credibility from './containers/Credibility';
 import './Home.css';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
             <Hero />
             <Brands />
+            <Credibility />
         </div>
     );
 };

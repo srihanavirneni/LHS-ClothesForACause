@@ -9,7 +9,7 @@ const Hero = () => {
         <section className="hero-section">
             <div className="hero-container">
                 <h1>
-                    GIVING STYLES. <br /> SHARING SMILES.
+                    SHARING STYLES. <br /> SHARING SMILES.
                 </h1>
                 <h2>Empower change through fashion!</h2>
                 <h3>
