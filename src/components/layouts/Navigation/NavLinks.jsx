@@ -5,6 +5,38 @@ import Button from '../../interface/Button';
 import './NavLinks.css';
 
 const NavLinks = (props) => {
+    if (props.footer) {
+        return (
+            <ul>
+                <li>
+                    <NavLink to="/" exact>
+                        Home
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/about" exact>
+                        About Us
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/sponsors" exact>
+                        Sponsors
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/contact" exact>
+                        Contact Us
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/participate" exact>
+                        Get Involved
+                    </NavLink>
+                </li>
+            </ul>
+        );
+    }
+
     return (
         <ul className="nav-links">
             <ul className="nav-links__centered">
@@ -19,7 +51,9 @@ const NavLinks = (props) => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/sponsors">Sponsors</NavLink>
+                    <NavLink to="/sponsors" exact>
+                        Sponsors
+                    </NavLink>
                 </li>
             </ul>
             <ul className="nav-links__right">

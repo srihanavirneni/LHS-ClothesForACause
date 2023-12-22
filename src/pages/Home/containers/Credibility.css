@@ -1,7 +1,7 @@
 .credibility-section {
     width: 90%;
-    height: 50vh;
     margin: auto;
+    margin-bottom: 5rem;
 }
 
 .credibility-section__points-list {
@@ -33,4 +33,20 @@
     margin-bottom: 2rem;
     text-align: left;
     font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .credibility-section__points-list {
+        flex-direction: column;
+    }
+
+    .credibility-section__points-list li {
+        width: 80%;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+    .credibility-section__points-list h2 {
+        text-align: center;
+    }
 }

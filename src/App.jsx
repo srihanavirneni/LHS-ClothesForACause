@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import MainNavigation from './components/layouts/Navigation/MainNavigation';
+import MainFooter from './components/layouts/Footer/MainFooter';
 
 import Home from './pages/Home/Home';
 import About from './pages/About';
@@ -32,6 +33,7 @@ const App = () => {
                     <Redirect to="/" />
                 </Switch>
             </main>
+            <MainFooter />
         </Router>
     );
 };
